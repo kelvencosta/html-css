@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgba(0, 0, 0, 0.932);
+  text-align: center;
+  color: blanchedalmond;
+}
+ a {
+     color: blanchedalmond;
+ }

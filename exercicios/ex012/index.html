@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+   <h1>Inserindo videos hospedado localmente</h1>
+   <!-- <video src="midias/pexels.mp4" width="600" autoplay controls></video> -->
+  
+   <video width="500" height="300" autoplay loop controls >
+       <source src="midias/pexels.mp4" type="video/mp4">  <!-- não recomendado, Metodo de alto custo para o cliente-->
+       <source src="midias/pexels.m4v" type="video/mp4">
+       <source src="midias/pexels.webm" type="video/webm">
+       <source src="midias/pexels.ogv" type="video/ogg">
+       <p>seu navegador não tem compatibilidade com reprodução de video <a href="midias/pexels.mp4"> Baixe aqui o arquivo</a></p>
+   </video>
+   <h1>Inserindo videos do Youtube</h1>
+
+   <iframe width="500" height="300" src="https://www.youtube.com/embed/6ApOeugf_fs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     <!--Recomendado, Metodo sem custo para o cliente -->
+</body>
+</html>
