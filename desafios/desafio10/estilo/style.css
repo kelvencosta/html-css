@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @font-face {
     font-family: "droid";
-    src: url("fontes/idroid.otf") format("opentype");
+    src: url("/desafios/desafio10/fontes/idroid.otf") format("opentype");
+     
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 
 header {
     color: white;
-    background-image:linear-gradient(to top, #012b0d , #66cc83);
+    background-image:linear-gradient(to top, #001406 , #3c9455);
     padding-top: 40px;
     font-size: 15px;
     text-align: center; 
