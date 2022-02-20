@@ -12,12 +12,22 @@
 
         table {
             border-collapse: collapse;
-            text-align: center;
+        
+           
         }
 
+        
         thead {
             background-color: rgb(102, 102, 102);
             color: white;
+        }
+
+        .materia {
+            text-align: left;
+        }
+
+        td {
+            text-align: center;
         }
 
         th, td {
@@ -26,7 +36,8 @@
             padding: 10px;
         }
 
-         tfoot, tr.destaque, tfoot {
+         tfoot, tr.destaque {
+             text-align: left;
             color: white;
             background-color: rgb(102, 102, 102);
         }
@@ -50,25 +61,25 @@
         <tbody>
             <tr>
                 <th rowspan="4">Exatas</th>
-                <td>Matemática</td>
+                <th>Matemática</th>
                 <td>6</td>
                 <td>5,8</td>
                 <td>11.8</td>
             </tr>
             <tr>
-                <td>Fisica</td>
+                <th  class="materia">Fisica</th>
                 <td>4.5</td>
                 <td>8.3</td>
                 <td>12,8</td>
             </tr>
             <tr>
-                <td>Quimica</td>
+                <th  class="materia">Quimica</th>
                 <td>8</td>
                 <td>6</td>
                 <td>14</td>
             </tr>
             <tr>
-                <td>Biologia</td>
+                <th  class="materia">Biologia</th>
                 <td>7.5</td>
                 <td>6</td>
                 <td>13.5</td>
@@ -79,12 +90,12 @@
             </tr>
             <tr>
                 <th rowspan="21">Humanas</th>
-                <td>História</td>
+                <th  class="materia">História</th>
                 <td>9.2</td>
                 <td>6,4</td>
                 <td>15.5</td>
             <tr>
-                <td>Geografia</td>
+                <th class="materia">Geografia</th>
                 <td>7</td>
                 <td>5.4</td>
                 <td>12.4</td>
