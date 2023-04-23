@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image:linear-gradient(to right, #F338FC, #1EFCCF, #1EB092);
+    background-image:linear-gradient(to right, #F338FC, #089679, #29f5cc);
 }
 
 main {
@@ -19,7 +19,7 @@ main {
 }
 
 h1 {
-    color:#FCD451;
+    color:#facf42;
     text-align: center;
     text-shadow: 1px 1px 2px #645522d0;
 }
