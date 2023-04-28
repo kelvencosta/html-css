@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadrasto.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="sexm" value="M" checked>
+            <label for="sexm">Masculino</label>
+            <input type="radio" name="sexo" id="sexf" value="F">
+            <label for="sexf">Feminino</label>
+        </fieldset>
+    </form>
+    <form action="cadrasto.php" method="get">
+        <fieldset>
+            <legend>Favorite sports</legend>
+            <input type="checkbox" name="soccer" id="isoccer">
+            <label for="isoccer">Futebol</label>
+            <input type="checkbox" name="basquete" id="ibasquete">
+            <label for="ibasquete">Basquete</label>
+            <input type="checkbox" name="chess" id="ichess">
+            <label for="ichess">Xadrez</label>
+            <input type="checkbox" name="tenis" id="itenis">
+            <label for="itenis">Tênis</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
