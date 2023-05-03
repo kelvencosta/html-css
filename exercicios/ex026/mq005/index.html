@@ -5,20 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
-                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sites</a></li>
+                <li><a href="#">Avisos</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Vagas</a></li>
             </ul>
         </menu>
     </header>
     <main>
         <article>
+            <h2>Testando Medias Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto hic magni doloremque maxime totam doloribus magnam fuga, culpa, est laborum distinctio cumque tempora aperiam, molestiae tempore et qui voluptatibus!Lorem>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto hic magni doloremque maxime totam doloribus magnam fuga, culpa, est laborum distinctio cumque tempora aperiam, molestiae tempore et qui </p>
 
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit qui accusantium, ipsum, similique dolorem aliquid veniam quis rem nam alias, facere aspernatur. Hic enim repudiandae asperiores, minima quaerat numquam animi?</p>
+
+            <p>>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto hic magni doloremque maxime totam doloribus magnam fuga, culpa, est laborum distinctio cumque tempora aperiam, molestiae tempore et qui voluptatibus!Lorem</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            
+            if (itens.style.display == "block"){
+                itens.style.display = "none"
+                
+            } else {
+
+                itens.style.display = "block"
+            }   
+        }
+    </script>
 </body>
 </html>
